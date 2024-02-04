@@ -41,7 +41,7 @@ func (poll *Poll) toMessageEmbed() *discordgo.MessageEmbed {
 		fields = append(fields, &discordgo.MessageEmbedField{Name: "Option 3", Value: poll.Option3})
 	}
 	if poll.Option4 != "" {
-		fields = append(fields, &discordgo.MessageEmbedField{Name: "Option 3", Value: poll.Option3})
+		fields = append(fields, &discordgo.MessageEmbedField{Name: "Option 4", Value: poll.Option4})
 	}
 	embed := discordgo.MessageEmbed{
 		Title:  poll.Question,
