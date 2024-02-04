@@ -31,7 +31,7 @@ Discord Bot Go is a simple Discord bot written in Go. This bot serves as a found
   BOT_PREFIX=YOUR_BOT_PREFIX
   ```
   Replace YOUR_BOT_TOKEN with the bot token you copied earlier.
-  Replace YOUR_BOT_PREFIX with any prefix you want for you bot commands
+  Replace YOUR_BOT_PREFIX with any prefix you want for you bot commands (no spaces allowed).
 
 ### 5. Build and Run:
 - Make sure you have Go installed on your machine.
